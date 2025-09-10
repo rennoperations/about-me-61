@@ -154,7 +154,7 @@
         }
     </style>
     <script>
-        // Bintang random
+
         document.addEventListener("DOMContentLoaded", function() {
             const starsContainer = document.querySelector('.stars');
             for(let i=0; i<50; i++) {
@@ -170,7 +170,6 @@
             }
         });
 
-        // Typewriter animation dengan newline dan jeda setelah titik
         const typewriterRaw = "Halo, salam kenal! Saya biasa dipanggil Reza. Saya lahir dan besar di kota Jakarta, saat ini saya sedang menempuh pendidikan S1 di IPB University. Saya bukan tipe seorang yang malas, namun saya terkadang ragu dalam mencoba hal-hal baru. Lingkungan sangat berpengaruh terhadap kualitas akademik saya. Saya bersyukur bisa masuk ke IPB University, sebab di sini saya menemukan lingkungan yang suportif dan membangun. Funfact, saya penggemar matcha dan air putih.";
         let typewriterText = typewriterRaw.replace("Halo, salam kenal!", "Halo, salam kenal!<br><br>");
         typewriterText = typewriterText.replace(/\. /g, '.<span class="tw-delay"></span> ');
